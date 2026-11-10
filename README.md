@@ -4,6 +4,8 @@ O **Comanda Fácil** é uma aplicação completa e moderna para gerenciamento de
 
 O projeto foi construído rigorosamente de acordo com as especificações contidas no documento `spec_comanda_facil.pdf`.
 
+🌐 **Sistema publicado e disponível no ar em:** [https://comandafacil-xkq1.onrender.com](https://comandafacil-xkq1.onrender.com)
+
 ---
 
 ## 🚀 Tecnologias e Arquitetura

@@ -85,7 +85,8 @@
 * **Front-end & Back-end**: [Next.js](https://nextjs.org/) (App Router, Server Actions / API Routes, TypeScript, Tailwind CSS).
 * **Banco de Dados**: PostgreSQL na nuvem utilizando o [Neon](https://neon.tech/) (driver `@neondatabase/serverless`), com fallback local em JSON (`data/local-db.json`) para viabilizar testes instantâneos offline.
 * **Controle de Versão**: Git e GitHub.
-* **Deploy**: Hospedado e publicado na nuvem via [Render](https://render.com/) (Web Service integrado ao GitHub).
+* **Deploy**: Hospedado e publicado na nuvem via [Render](https://render.com/).
+* **URL do Sistema no Ar**: [https://comandafacil-xkq1.onrender.com](https://comandafacil-xkq1.onrender.com)
 
 ---
 
