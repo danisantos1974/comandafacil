@@ -7,6 +7,7 @@ import {
   Grid,
   LogOut,
   Menu,
+  Monitor,
   Package,
   Receipt,
   ShieldCheck,
@@ -129,6 +130,16 @@ export default function Navbar() {
               <span>Comandas</span>
             </Link>
 
+            <Link
+              href="/totem"
+              target="_blank"
+              className="flex items-center gap-2 px-3.5 py-2 rounded-lg text-sm font-medium text-slate-600 hover:text-orange-600 hover:bg-orange-50 transition"
+              title="Abrir Totem de Autoatendimento em nova aba"
+            >
+              <Monitor className="w-4 h-4 text-orange-500" />
+              <span>Totem</span>
+            </Link>
+
             {/* Administrador Menu */}
             {session?.tipo === 'administrador' && (
               <Link
@@ -240,6 +251,16 @@ export default function Navbar() {
             >
               <Receipt className="w-5 h-5" />
               <span>Histórico de Comandas</span>
+            </Link>
+
+            <Link
+              href="/totem"
+              target="_blank"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center gap-3 px-3 py-2.5 rounded-lg text-base font-medium text-slate-700 hover:text-orange-600"
+            >
+              <Monitor className="w-5 h-5 text-orange-500" />
+              <span>Totem Autoatendimento</span>
             </Link>
 
             {session?.tipo === 'administrador' && (
